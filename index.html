@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">&lt;<span>PORTFOLIO</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="small-title">HELLO, I'M</p>
+
+            <h1>
+                Nathaniel <span>Oras</span>
+            </h1>
+
+            <h2>FRONT-END DEVELOPER <span>&</span> STUDENT</h2>
+
+            <p class="description">
+             help..
+            </p>
+
+            <a href="#projects" class="btn">
+        
+            </a>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile-frame">
+                <img src="8b4fdfeb-da10-4f69-978e-3f8581590aa6.jpg" alt="Profile Picture">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <h2>ABOUT <span>ME</span></h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+                <p>
+                    Hi! I'm a student who is passionate about web development
+                    and design. I enjoy learning new technologies and creating
+                    projects that look good and work properly.
+                </p>
+
+                <p>
+                    I'm always open to new challenges and opportunities
+                    to improve my skills.
+                </p>
+            </div>
+
+            <div class="about-list">
+
+                <div class="about-item">
+                    <div class="icon">👤</div>
+                    <div>
+                        <h3>Student</h3>
+                        <p>Always learning and improving.</p>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="icon">&lt;/&gt;</div>
+                    <div>
+                        <h3>Web Developer</h3>
+                        <p>Turning ideas into websites.</p>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <div class="icon">★</div>
+                    <div>
+                        <h3>Problem Solver</h3>
+                        <p>Finding solutions one line of code at a time.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <h2>MY <span>SKILLS</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon html">HTML</div>
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <p>90%</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon css">CSS</div>
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <p>85%</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon js">MS</div>
+                <h3>missing someone</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+                <p>70%</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon design">◆</div>
+                <h3>Design</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 65%;"></div>
+                </div>
+                <p>65%</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- GEOMETRY DASH GAME -->
+<section id="geometry-game" class="section">
+    <div class="section-title">
+        <h2>GEOMETRY <span>DASH</span></h2>
+        <p>Jump over the spikes and beat your high score!</p>
+    </div>
+
+    <div class="gd-container">
+        <div class="gd-info">
+            <span>SCORE: <b id="gd-score">0</b></span>
+            <span>BEST: <b id="gd-best">0</b></span>
+        </div>
+
+        <div class="gd-game" id="gd-game" tabindex="0">
+            <div class="gd-stars"></div>
+            <div class="gd-ground"></div>
+
+            <div class="gd-player" id="gd-player"></div>
+
+            <div class="gd-obstacles" id="gd-obstacles"></div>
+
+            <div class="gd-overlay" id="gd-overlay">
+                <h2 id="gd-message">GEOMETRY DASH</h2>
+                <p id="gd-instructions">
+                    Press SPACE, click, or tap to jump!
+                </p>
+                <button id="gd-start">PLAY GAME ▶</button>
+            </div>
+        </div>
+
+        <p class="gd-help">
+            🎮 SPACE / ↑ / CLICK / TAP TO JUMP
+        </p>
+    </div>
+</section>
+
+</section>
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <h2>MY <span>PROJECTS</span></h2>
+        </div>
+
+        <div class="projects-container">
+            
+
+
+<div class="project-card">
+
+    <div class="project-image">
+        <img src="Screenshot 2026-10-11 150355.png" alt="Academic Task Tracker">
+    </div>
+
+    <h2>ACADEMIC TASK TRACKER</h2>
+
+    <p>My academic task tracker project.</p>
+
+    <a href="#" class="project-button">
+        VIEW PROJECT →
+    </a>
+
+</div>
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="calculator">
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>+</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>-</span>
+                    </div>
+                </div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A basic calculator with a simple and clean
+                    user interface. that can also calculate 
+                    how long u missed her.
+                </p>
+
+                <button onclick="showProject('Calculator')">
+                    VIEW PROJECT →
+                </button>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="landing-page">
+                        <h3>EXPLORE MORE</h3>
+                        <button>EXPLORE</button>
+                    </div>
+                </div>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    A responsive landing page with a modern
+                    and attractive design.
+                </p>
+
+                <button onclick="showProject('Landing Page')">
+                    VIEW PROJECT →
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <h2>GET IN <span>TOUCH</span></h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <p>
+                    Feel free to reach out! I'm always open to
+                    new opportunities and collaborations,tas pag miss mopa sya..for 2500 only
+                </p>
+
+                <div class="contact-item">
+                    <span>✉</span>
+                    <p>Orasnathaniel@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <span>☎</span>
+                    <p>+63 916 869 3164</p>
+                </div>
+
+                <div class="contact-item">
+                    <span>📍</span>
+                    <p>Philippines</p>
+                </div>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    SEND MESSAGE →
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>CODE / CREATE / GROW</p>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 My Portfolio.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
